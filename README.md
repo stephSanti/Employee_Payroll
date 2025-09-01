@@ -16,13 +16,13 @@ Summary statistics (Max, Min, Average, and Total Pay)
 
 Key Formulas Used:
 
-Overtime Hours: =IF(HoursWorked > 40, HoursWorked - 40, 0)
+Overtime Hours: =IF(D4>40, D4-40, 0)
 
-Base Pay: =MIN(HoursWorked, 40) * HourlyWage
+Base Pay: =C4*D4
 
-Overtime Bonus: =OvertimeHours * HourlyWage * 1.5
+Overtime Bonus: =0.5*C4*E4
 
-Total Pay: =BasePay + OvertimeBonus
+Total Pay: =F4+G4
 
  What's Included:
 
