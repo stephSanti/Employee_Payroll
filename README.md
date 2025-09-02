@@ -1,4 +1,4 @@
-##Employee Payroll
+## Employee Payroll Tracker 
 
 This project simulates a payroll sheet with fictional employee data (names, hourly wages, and hours worked). I used Excel formulas to automatically calculate:
 	•	Overtime hours
