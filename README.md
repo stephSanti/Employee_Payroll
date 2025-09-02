@@ -8,6 +8,7 @@ This project simulates a payroll sheet with fictional employee data (names, hour
 	•	Summary statistics (Max, Min, Average, and Total Pay)
 
 🔑 Key Formulas Used
+	
 	•	Overtime Hours: =IF(D4>40, D4-40, 0)
 	•	Base Pay: =C4*D4
 	•	Overtime Bonus: =0.5*C4*E4
